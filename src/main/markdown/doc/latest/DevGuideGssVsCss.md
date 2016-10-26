@@ -209,7 +209,7 @@ See https://code.google.com/p/closure-stylesheets/#RTL_Flipping
 
 ## External style classes
 The `@external` at-rule can be used in `CssResource` to suppress selector obfuscation while still allowing programmatic access to the selector name. This at-rule can be still used with GSS with some constraints:
-Do not use a dot (`.`) in front of your style class and you need to surrond the expression with quotes if you use the `*` suffix to match multiple style classes.
+Do not use a dot (`.`) in front of your style class and you need to surround the expression with quotes if you use the `*` suffix to match multiple style classes.
 
 ```
 /* CSS */
